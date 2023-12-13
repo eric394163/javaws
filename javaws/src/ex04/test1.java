@@ -14,9 +14,9 @@ public class test1 {
         int eng = sc.nextInt();
 
         int sum = kor+math+eng;
-        int avg = sum/3;
+        double avg = (double)sum/3;
 
-        System.out.printf("총점 : %d, 평균 : %d",sum,avg);
+        System.out.printf("총점 : %d, 평균 : %f",sum,avg);
 
         System.out.println("\n");
 
