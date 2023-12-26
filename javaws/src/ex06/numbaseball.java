@@ -40,9 +40,8 @@ public class numbaseball {
             }
             System.out.println();
 
-            System.out.print("입력 : ");
+            System.out.print("입력 : "); // 입력 부분 수정 
             for (int i = 0; i < userNum.length; i++) {
-                System.out.println();
                 int input = sc.nextInt();
                 userNum[i] = input;
             }
@@ -74,9 +73,7 @@ public class numbaseball {
                 
 
             }
-            if (cntS == 0 && cntB == 0) {
 
-            }
 
             System.out.println(cntS + "S" + cntB + "B" + cntO + "O");
 

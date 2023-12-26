@@ -43,6 +43,7 @@ public class methodex2 {
             arr[i] = i+1;
             
         }
+        
         return arr;
     }
 

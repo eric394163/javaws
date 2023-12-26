@@ -28,7 +28,7 @@ public class oddevengame {
 
         System.out.print("0(짝수) 또는 1(홀수) 입력 : ");
         int input = sc.nextInt();
-        System.out.print("랜덤 숫자 : " + num);
+        System.out.println("랜덤 숫자 : " + num);
         if (input == result) {
             // 승리 1 반환
             return 1;
@@ -42,8 +42,11 @@ public class oddevengame {
     public static void scoreBoard(int winCnt, int loseCnt) {
 
         System.out.println(winCnt + "승" + " " + loseCnt + "패");
+        System.out.println("================");
 
     }
+
+
 
     public static void main(String[] args) {
 
@@ -61,10 +64,12 @@ public class oddevengame {
                     int result = newGame();
                     if (result == 1) {
                         System.out.println("승리");
+                        System.out.println("================");
                         winCnt++;
 
                     } else {
                         System.out.println("패배");
+                        System.out.println("================");
                         loseCnt++;
                     }
 
@@ -85,6 +90,7 @@ public class oddevengame {
         } while (menu != 3);
 
         sc.close();
+
     }
 
 }
